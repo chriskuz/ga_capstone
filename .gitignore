@@ -1,3 +1,4 @@
 env.json
 data/
 code/.ipynb_checkpoints
+.vscode
