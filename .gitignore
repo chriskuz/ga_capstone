@@ -2,3 +2,5 @@ env.json
 data/
 code/.ipynb_checkpoints
 .vscode
+code/flight_aware_scrape_dump.ipynb
+code/scrap_project.ipynb
