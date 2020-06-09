@@ -76,3 +76,34 @@ The model performed well, but there was a great cost to the performance of this 
 - there are many skews in our data and biases including geographical location limitations, dominating imbalances in different categorical types, risk of overfitting.
 
 With such mentions above, which isn't inclusive of naming all of the various issues across this study, there is much future work to be done to create a better model and create a better platform for Kruze. For the future, some considerations would be to incorporate more relevant features, such as: jet fuel pricing, passenger data, jet engine analysis, more routes, travel trends, seasonality, housing prices of planes, and more. The project was semi-successful in that it showcases a minimum proof of concept, but fails to serve as a reliable model for price prediction. 
+
+## References
+- [FlightAware.com](https://flightaware.com)
+
+- [FlightXML2 Documentation](https://flightaware.com/commercial/flightxml/explorer/#op_AirlineFlightInfo)
+
+- [suds Package](https://docs.inductiveautomation.com/display/DOC79/SUDS+-+Library+Overview)
+
+- [Flights.com](https://www.flights.com/flights/new-york-jfk-to-miami-mia/)
+
+- [Airports Shut Down due to Covid-19 Pandemic](https://www.businessinsider.com/coronavirus-airports-and-faa-centers-temporarily-closed-for-cleaning-2020-3#chicagos-midway-international-airport-1)
+
+- [RapidAPI.com](https://rapidapi.com)
+
+- [Skyscanner Flight Search API](https://rapidapi.com/search/skyscanner)
+
+- [Skyscanner.com](https://www.skyscanner.com/about-us)
+
+- [Skyscanner's official documentation for their travel APIs](https://skyscanner.github.io/slate/#getting-started) 
+
+- [`requests` Package](https://realpython.com/python-requests/)
+
+- [FlightAware Discussions Source](https://discussions.flightaware.com/t/airlineflightschedules-ident-and-actual-ident-not-matching/59284)
+
+- [Codeshare Flights](https://thepointsguy.com/guide/what-are-codeshare-flights-and-how-do-they-work/)
+
+- [IATA and ICAO codes](https://aviation.stackexchange.com/questions/8767/when-do-we-use-iata-codes-and-when-do-we-use-icao-codes)
+
+- [MNAR](https://www.theanalysisfactor.com/missing-data-mechanism/)
+
+- [Bagging Regressor Tool from Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.BaggingRegressor.html)
