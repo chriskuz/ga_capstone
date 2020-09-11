@@ -15,7 +15,7 @@ To start, we will approach the project with the intention of expressing a minimu
     - Los Angeles International Airport (KLAX) 
     - Houston George Bush Intercontinental Airport (KIAH)
     - Miami International Airport (KMIA)
-    - Hatsfield-Jackson Atlanta International Airport (KATL)
+    - Hartsfield-Jackson Atlanta International Airport (KATL)
     - Portland International Airport (KPDX)
 - assuming external costs from the study (including maintenance/crew salary) to be negligible
 - using price data from future flights as opposed to previous flights as previous flight pricing is not readily available
@@ -23,7 +23,7 @@ To start, we will approach the project with the intention of expressing a minimu
 
 All current assumptions labeled are set to allow us to achieve (or attempt to achieve) our goal within a certain time frame, as Kruze is requiring an answer from us quickly! With this in mind, we will consider discussing how such assumptions can contribute to any error throughout our study, as well as remind ourselves that integrating negated features for future work may actually be very beneficial to us in achieving a stronger prediction.
 
-As we are working with what is considered to be a continuous variable, we will analyze common price trends utilizing a supervised regression model, such as Linear Regression, KNNRegression, Bagging Regression, and Decision Tree Regression. We will ultimately be using the Mean Absolute Error against our predictions to help us gauge how well our selected model predicts the price and discuss what issues may be observed from the limitations of this study. The Mean Absolute Error seems the most appropriate to analyze pricing values as the error is in the scale of our predictions and is much clearer for anyone to understand the general error of the model in absolute terms. 
+As we are working with what is considered to be a continuous variable, we will analyze common price trends utilizing a supervised regression model, such as Linear Regression, KNNRegression, Bagging Regression, Decision Tree Regression, and Random Forest Regression. We will ultimately be using the Mean Absolute Error against our predictions to help us gauge how well our selected model predicts the price and discuss what issues may be observed from the limitations of this study. The Mean Absolute Error seems the most appropriate to analyze pricing values as the error is in the scale of our predictions and is much clearer for anyone to understand the general error of the model in absolute terms. 
 
 
 
@@ -63,7 +63,7 @@ After all the arduous cleaning necessary to create a dataframe for modeling, fou
 |`DestinationCountryName`|__String Object__|*destination country name*|
 |`CarrierName`|__String Object__|*carrier name affiliated with quote*|
 
-## Conclusions and Future Work
+# Conclusions and Future Work
 
 The model performed well, but there was a great cost to the performance of this model. We must remember that:
 
